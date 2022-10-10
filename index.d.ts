@@ -429,7 +429,7 @@ declare module 'collect.js' {
      * The toArray method converts the collection into a plain array.
      * If the collection is an object, an array containing the values will be returned.
      */
-    toArray<T>(): T[];
+    toArray(): Item[];
 
     /**
      * The toJson method converts the collection into JSON string.
